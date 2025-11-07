@@ -112,7 +112,7 @@ const App = () => {
   return (
     <>
       {/* === SVG INTRO === */}
-      <div className="svg flex items-center justify-center fixed top-0 left-0 z-[100] w-full h-screen overflow-hidden bg-black">
+      <div className="svg flex items-center justify-center fixed top-0 left-0 z-100 w-full h-screen overflow-hidden bg-black">
         <svg viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice" className="w-full h-full">
           <defs>
             <mask id="viMask">
@@ -147,7 +147,7 @@ const App = () => {
       {showContent && (
         <>
           {/* === LANDING PAGE === */}
-          <div className={`main w-full md:rotate-[10deg] md:scale-[1.7] transition-opacity duration-500 ${
+          <div className={`main w-full md:rotate-10deg md:scale-[1.7] transition-opacity duration-500 ${
             currentView === 'landing' ? 'opacity-100' : 'opacity-0 pointer-events-none absolute'
           }`}>
             <div className="landing w-full h-screen bg-black relative overflow-hidden">
@@ -186,14 +186,14 @@ const App = () => {
 
                 {/* Character image */}
                 <img
-                  className="character absolute bottom-[-10%] sm:bottom-[-15%] md:bottom-[-20%] right-[10%] sm:right-[15%] md:right-[20%] scale-[1.2] sm:scale-[1.5] md:scale-[2] md:rotate-[10deg]"
+                  className="character absolute bottom-[-10%] sm:bottom-[-15%] md:bottom-[-20%] right-[10%] sm:right-[15%] md:right-[20%] scale-[1.2] sm:scale-[1.5] md:scale-[2] md:rotate-10deg"
                   src={Bottom}
                   alt="Character"
                 />
               </div>
 
               {/* Bottom bar */}
-              <div className="btmbar w-full bg-gradient-to-t from-white py-4 sm:py-6 md:py-10 px-4 sm:px-6 md:px-10 to-transparent absolute bottom-0 left-0 text-white">
+              <div className="btmbar w-full bg-linear-to-t from-white py-4 sm:py-6 md:py-10 px-4 sm:px-6 md:px-10 to-transparent absolute bottom-0 left-0 text-white">
                 <div className="flex gap-2 sm:gap-3 md:gap-4 items-center">
                   <i className="text-lg sm:text-xl md:text-2xl ri-arrow-down-line"></i>
                   <h3 className="text-base sm:text-lg md:text-xl lg:text-2xl font-[Helvetica_Now_Display]">Scroll Down</h3>

@@ -200,11 +200,11 @@ const Shop = () => {
       {/* Modal for Item Details */}
       {selectedItem && (
         <div 
-          className="fixed inset-0 z-[9999] flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm overflow-y-auto"
+          className="fixed inset-0 z-9999 flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm overflow-y-auto"
           onClick={() => setSelectedItem(null)}
         >
           <div 
-            className="bg-gradient-to-br from-gray-900 to-gray-800 border border-white/20 rounded-3xl max-w-2xl w-full my-8 shadow-2xl"
+            className="bg-linear-to-br from-gray-900 to-gray-800 border border-white/20 rounded-3xl max-w-2xl w-full my-8 shadow-2xl"
             onClick={(e) => e.stopPropagation()}
           >
             <div className="relative">

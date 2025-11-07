@@ -127,7 +127,7 @@ const From = () => {
           </h3>
           
           <label className="block">
-            <span className="text-sm font-medium mb-1 block flex items-center gap-1">
+            <span className="text-sm font-medium mb-1 flex items-center gap-1">
               Name <span className="text-red-400">*</span>
             </span>
             <input
@@ -143,7 +143,7 @@ const From = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <label className="block">
-              <span className="text-sm font-medium mb-1 block flex items-center gap-1">
+              <span className="text-sm font-medium mb-1  flex items-center gap-1">
                 Email <span className="text-red-400">*</span>
               </span>
               <input
@@ -159,7 +159,7 @@ const From = () => {
             </label>
 
             <label className="block">
-              <span className="text-sm font-medium mb-1 block flex items-center gap-1">
+              <span className="text-sm font-medium mb-1  flex items-center gap-1">
                 Registration Number <span className="text-red-400">*</span>
               </span>
               <input
@@ -183,7 +183,7 @@ const From = () => {
           </h3>
 
           <label className="block">
-            <span className="text-sm font-medium mb-1 block flex items-center gap-1">
+            <span className="text-sm font-medium mb-1  flex items-center gap-1">
               Title <span className="text-red-400">*</span>
             </span>
             <input
@@ -198,7 +198,7 @@ const From = () => {
           </label>
 
           <label className="block">
-            <span className="text-sm font-medium mb-1 block flex items-center gap-1">
+            <span className="text-sm font-medium mb-1  flex items-center gap-1">
               Category <span className="text-red-400">*</span>
             </span>
             <select
@@ -216,7 +216,7 @@ const From = () => {
           </label>
 
           <label className="block">
-            <span className="text-sm font-medium mb-1 block flex items-center gap-1">
+            <span className="text-sm font-medium mb-1  flex items-center gap-1">
               Description <span className="text-red-400">*</span>
             </span>
             <textarea
@@ -233,7 +233,7 @@ const From = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <label className="block">
-              <span className="text-sm font-medium mb-1 block flex items-center gap-1">
+              <span className="text-sm font-medium mb-1  flex items-center gap-1">
                 <i className="ri-map-pin-line text-blue-400"></i>
                 Location <span className="text-red-400">*</span>
               </span>
@@ -249,7 +249,7 @@ const From = () => {
             </label>
 
             <label className="block">
-              <span className="text-sm font-medium mb-1 block flex items-center gap-1">
+              <span className="text-sm font-medium mb-1  flex items-center gap-1">
                 <i className="ri-calendar-line text-blue-400"></i>
                 Date <span className="text-red-400">*</span>
               </span>
